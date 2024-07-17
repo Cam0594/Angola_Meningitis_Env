@@ -160,7 +160,7 @@ ggplot(data = angola_regions_dust) +
     color = "black", 
     fontface ="bold",
     max.overlaps = 20,
-    point.padding = unit(0.5, "lines"), # Adjust padding if needed
+    point.padding = unit(0.5, "lines"), 
     segment.size = 0.5, 
     segment.color = "black",
     arrow = arrow(length = unit(0.01, "npc")),
